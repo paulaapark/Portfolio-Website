@@ -75,7 +75,7 @@
                 <div class="container">
                     <p>
                         <label class="form-head">Name</label><br>
-                        <input type="text" placeholder="What is your name?">
+                        <input type="text" placeholder="What is your name?" required>
                     </p>
                     <p>
                         <label class="form-head">Age</label><br>
@@ -83,20 +83,18 @@
                     </p>
                     <p>
                         <label class="form-head">Email</label><br>
-                        <input type="email" placeholder="Please enter your email">
+                        <input type="email" placeholder="Please enter your email" required>
                     </p>
                 </div>
                 <div class="container"> 
                     <p>
                         <label class="form-head">Request</label> <br>
-                        <textarea cols="65" rows="5" placeholder="Write your message or inquiry here..."></textarea>
+                        <textarea cols="65" rows="5" placeholder="Write your message or inquiry here..." required></textarea>
                     
                     </p>
                 </div>
                 <div class="container">
-                    <button id="submit">
-                        <p >Submit</p>
-                    </button>
+                    <input type="submit" value="Submit" id="submit">
                 </div>
             </form>
         </div>
