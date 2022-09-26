@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+header{
+    background-color:lightcoral;
+    text-align: center;
+    padding: 20px;
+}
+
+#projects-head{
+    margin-left: 40px;
+    margin-bottom: 15px;
+    font-size:x-large;
+}
+.projects{
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight:bold;
+}
+
+#projects-in{ 
+    border-style: solid;
+    border-color: lightcoral;
+    border-radius: 5px;
+    border-width: thin;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+li button a{
+    text-decoration: none;
+    color: lightcoral;
+    font-size: medium;
+}
+
+.grid{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+h3{
+    color:lightcoral;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+
+
+.container{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#languages{
+    list-style-type: disc;
+}
+
+#right{
+    float: inline-end;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+#mid{
+    margin-left: 125px;
+    
+}
+
+#left{
+    float: inline-start;
+    margin-left: 80px;
+}
+
+
+#contact-me{
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#form{
+    border-color: grey;
+    border-style: solid;
+    border-width: thin;
+    display: inline-table;
+    border-radius: 5px;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.form-head{
+    color: lightcoral;
+    font-weight: bold;
+}
+
+#submit{
+    padding-left: 291px;
+    padding-right: 291px;
+    color: lightcoral;
+    font-weight: bold;
+}
+
+
+
+
+
